@@ -11,6 +11,32 @@
 		970528232B2AFD7C0068AE18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528222B2AFD7C0068AE18 /* ContentView.swift */; };
 		970528252B2AFD7E0068AE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970528242B2AFD7E0068AE18 /* Assets.xcassets */; };
 		970528282B2AFD7E0068AE18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970528272B2AFD7E0068AE18 /* Preview Assets.xcassets */; };
+		970528312B2AFEAD0068AE18 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528302B2AFEAD0068AE18 /* LoaderView.swift */; };
+		970528342B2B05FD0068AE18 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528332B2B05FD0068AE18 /* ProgressBar.swift */; };
+		970528372B2B083E0068AE18 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528362B2B083E0068AE18 /* Color+extension.swift */; };
+		970528452B2B0AD50068AE18 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9705283C2B2B0AD40068AE18 /* Inter-Light.ttf */; };
+		970528462B2B0AD50068AE18 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9705283D2B2B0AD40068AE18 /* Inter-Bold.ttf */; };
+		970528472B2B0AD50068AE18 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9705283E2B2B0AD40068AE18 /* Inter-Black.ttf */; };
+		970528482B2B0AD50068AE18 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9705283F2B2B0AD40068AE18 /* Inter-Thin.ttf */; };
+		970528492B2B0AD50068AE18 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970528402B2B0AD40068AE18 /* Inter-Regular.ttf */; };
+		9705284A2B2B0AD50068AE18 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970528412B2B0AD40068AE18 /* Inter-SemiBold.ttf */; };
+		9705284B2B2B0AD50068AE18 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970528422B2B0AD50068AE18 /* Inter-ExtraBold.ttf */; };
+		9705284C2B2B0AD50068AE18 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970528432B2B0AD50068AE18 /* Inter-ExtraLight.ttf */; };
+		9705284D2B2B0AD50068AE18 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970528442B2B0AD50068AE18 /* Inter-Medium.ttf */; };
+		9705284F2B2B0B840068AE18 /* Font+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9705284E2B2B0B840068AE18 /* Font+extension.swift */; };
+		970528542B2B0D880068AE18 /* TradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528532B2B0D880068AE18 /* TradeView.swift */; };
+		970528572B2B0D970068AE18 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528562B2B0D970068AE18 /* TopView.swift */; };
+		970528592B2B0EEE0068AE18 /* TopViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528582B2B0EEE0068AE18 /* TopViewViewModel.swift */; };
+		9705285C2B2B227F0068AE18 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9705285B2B2B227F0068AE18 /* WebView.swift */; };
+		9705285E2B2B22890068AE18 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9705285D2B2B22890068AE18 /* WebViewController.swift */; };
+		970528602B2B242C0068AE18 /* View+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9705285F2B2B242C0068AE18 /* View+extension.swift */; };
+		970528622B2B26540068AE18 /* TradeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528612B2B26540068AE18 /* TradeViewViewModel.swift */; };
+		970528642B2B27B90068AE18 /* TradeButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528632B2B27B90068AE18 /* TradeButtonStack.swift */; };
+		970528662B2B29310068AE18 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970528652B2B29310068AE18 /* TimerButton.swift */; };
+		975A4BBD2B2B33680090DD68 /* InvestmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BBC2B2B33680090DD68 /* InvestmentButton.swift */; };
+		975A4BBF2B2B368F0090DD68 /* BuySellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BBE2B2B368F0090DD68 /* BuySellButton.swift */; };
+		975A4BC12B2B38990090DD68 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC02B2B38990090DD68 /* CurrencyView.swift */; };
+		975A4BC42B2B3C5E0090DD68 /* CurrencyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC32B2B3C5E0090DD68 /* CurrencyViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +45,33 @@
 		970528222B2AFD7C0068AE18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		970528242B2AFD7E0068AE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		970528272B2AFD7E0068AE18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		970528302B2AFEAD0068AE18 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		970528332B2B05FD0068AE18 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		970528362B2B083E0068AE18 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		9705283B2B2B0A770068AE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9705283C2B2B0AD40068AE18 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		9705283D2B2B0AD40068AE18 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		9705283E2B2B0AD40068AE18 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		9705283F2B2B0AD40068AE18 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		970528402B2B0AD40068AE18 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		970528412B2B0AD40068AE18 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		970528422B2B0AD50068AE18 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		970528432B2B0AD50068AE18 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		970528442B2B0AD50068AE18 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		9705284E2B2B0B840068AE18 /* Font+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+extension.swift"; sourceTree = "<group>"; };
+		970528532B2B0D880068AE18 /* TradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeView.swift; sourceTree = "<group>"; };
+		970528562B2B0D970068AE18 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		970528582B2B0EEE0068AE18 /* TopViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewViewModel.swift; sourceTree = "<group>"; };
+		9705285B2B2B227F0068AE18 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		9705285D2B2B22890068AE18 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9705285F2B2B242C0068AE18 /* View+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+extension.swift"; sourceTree = "<group>"; };
+		970528612B2B26540068AE18 /* TradeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewViewModel.swift; sourceTree = "<group>"; };
+		970528632B2B27B90068AE18 /* TradeButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeButtonStack.swift; sourceTree = "<group>"; };
+		970528652B2B29310068AE18 /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		975A4BBC2B2B33680090DD68 /* InvestmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentButton.swift; sourceTree = "<group>"; };
+		975A4BBE2B2B368F0090DD68 /* BuySellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellButton.swift; sourceTree = "<group>"; };
+		975A4BC02B2B38990090DD68 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		975A4BC32B2B3C5E0090DD68 /* CurrencyViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +104,17 @@
 		9705281F2B2AFD7C0068AE18 /* SoftoriumTest */ = {
 			isa = PBXGroup;
 			children = (
+				9705283B2B2B0A770068AE18 /* Info.plist */,
 				970528202B2AFD7C0068AE18 /* SoftoriumTestApp.swift */,
 				970528222B2AFD7C0068AE18 /* ContentView.swift */,
+				970528302B2AFEAD0068AE18 /* LoaderView.swift */,
+				9705285A2B2B225E0068AE18 /* WebView */,
+				970528502B2B0D3D0068AE18 /* TradeModule */,
+				970528522B2B0D750068AE18 /* TopModule */,
+				970528322B2B05EB0068AE18 /* Helpers */,
+				970528352B2B082C0068AE18 /* Extensions */,
 				970528242B2AFD7E0068AE18 /* Assets.xcassets */,
+				9705283A2B2B0A3E0068AE18 /* CustomFont */,
 				970528262B2AFD7E0068AE18 /* Preview Content */,
 			);
 			path = SoftoriumTest;
@@ -65,6 +126,81 @@
 				970528272B2AFD7E0068AE18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		970528322B2B05EB0068AE18 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				970528332B2B05FD0068AE18 /* ProgressBar.swift */,
+				970528652B2B29310068AE18 /* TimerButton.swift */,
+				975A4BBC2B2B33680090DD68 /* InvestmentButton.swift */,
+				975A4BBE2B2B368F0090DD68 /* BuySellButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		970528352B2B082C0068AE18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				970528362B2B083E0068AE18 /* Color+extension.swift */,
+				9705284E2B2B0B840068AE18 /* Font+extension.swift */,
+				9705285F2B2B242C0068AE18 /* View+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9705283A2B2B0A3E0068AE18 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				9705283E2B2B0AD40068AE18 /* Inter-Black.ttf */,
+				9705283D2B2B0AD40068AE18 /* Inter-Bold.ttf */,
+				970528422B2B0AD50068AE18 /* Inter-ExtraBold.ttf */,
+				970528432B2B0AD50068AE18 /* Inter-ExtraLight.ttf */,
+				9705283C2B2B0AD40068AE18 /* Inter-Light.ttf */,
+				970528442B2B0AD50068AE18 /* Inter-Medium.ttf */,
+				970528402B2B0AD40068AE18 /* Inter-Regular.ttf */,
+				970528412B2B0AD40068AE18 /* Inter-SemiBold.ttf */,
+				9705283F2B2B0AD40068AE18 /* Inter-Thin.ttf */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		970528502B2B0D3D0068AE18 /* TradeModule */ = {
+			isa = PBXGroup;
+			children = (
+				970528532B2B0D880068AE18 /* TradeView.swift */,
+				970528612B2B26540068AE18 /* TradeViewViewModel.swift */,
+				970528632B2B27B90068AE18 /* TradeButtonStack.swift */,
+				975A4BC22B2B3C4D0090DD68 /* CurrencyView */,
+			);
+			path = TradeModule;
+			sourceTree = "<group>";
+		};
+		970528522B2B0D750068AE18 /* TopModule */ = {
+			isa = PBXGroup;
+			children = (
+				970528562B2B0D970068AE18 /* TopView.swift */,
+				970528582B2B0EEE0068AE18 /* TopViewViewModel.swift */,
+			);
+			name = TopModule;
+			sourceTree = "<group>";
+		};
+		9705285A2B2B225E0068AE18 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				9705285B2B2B227F0068AE18 /* WebView.swift */,
+				9705285D2B2B22890068AE18 /* WebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		975A4BC22B2B3C4D0090DD68 /* CurrencyView */ = {
+			isa = PBXGroup;
+			children = (
+				975A4BC02B2B38990090DD68 /* CurrencyView.swift */,
+				975A4BC32B2B3C5E0090DD68 /* CurrencyViewViewModel.swift */,
+			);
+			path = CurrencyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +262,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				970528282B2AFD7E0068AE18 /* Preview Assets.xcassets in Resources */,
+				9705284C2B2B0AD50068AE18 /* Inter-ExtraLight.ttf in Resources */,
+				970528452B2B0AD50068AE18 /* Inter-Light.ttf in Resources */,
+				9705284B2B2B0AD50068AE18 /* Inter-ExtraBold.ttf in Resources */,
+				970528482B2B0AD50068AE18 /* Inter-Thin.ttf in Resources */,
+				970528472B2B0AD50068AE18 /* Inter-Black.ttf in Resources */,
+				9705284A2B2B0AD50068AE18 /* Inter-SemiBold.ttf in Resources */,
+				970528462B2B0AD50068AE18 /* Inter-Bold.ttf in Resources */,
 				970528252B2AFD7E0068AE18 /* Assets.xcassets in Resources */,
+				9705284D2B2B0AD50068AE18 /* Inter-Medium.ttf in Resources */,
+				970528492B2B0AD50068AE18 /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +282,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970528662B2B29310068AE18 /* TimerButton.swift in Sources */,
+				970528592B2B0EEE0068AE18 /* TopViewViewModel.swift in Sources */,
+				975A4BBF2B2B368F0090DD68 /* BuySellButton.swift in Sources */,
+				970528642B2B27B90068AE18 /* TradeButtonStack.swift in Sources */,
+				975A4BC42B2B3C5E0090DD68 /* CurrencyViewViewModel.swift in Sources */,
+				9705285E2B2B22890068AE18 /* WebViewController.swift in Sources */,
+				9705285C2B2B227F0068AE18 /* WebView.swift in Sources */,
 				970528232B2AFD7C0068AE18 /* ContentView.swift in Sources */,
+				975A4BC12B2B38990090DD68 /* CurrencyView.swift in Sources */,
+				970528542B2B0D880068AE18 /* TradeView.swift in Sources */,
 				970528212B2AFD7C0068AE18 /* SoftoriumTestApp.swift in Sources */,
+				970528372B2B083E0068AE18 /* Color+extension.swift in Sources */,
+				970528342B2B05FD0068AE18 /* ProgressBar.swift in Sources */,
+				975A4BBD2B2B33680090DD68 /* InvestmentButton.swift in Sources */,
+				970528622B2B26540068AE18 /* TradeViewViewModel.swift in Sources */,
+				9705284F2B2B0B840068AE18 /* Font+extension.swift in Sources */,
+				970528572B2B0D970068AE18 /* TopView.swift in Sources */,
+				970528602B2B242C0068AE18 /* View+extension.swift in Sources */,
+				970528312B2AFEAD0068AE18 /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +432,13 @@
 				DEVELOPMENT_TEAM = 3FA65R7P49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoftoriumTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +463,13 @@
 				DEVELOPMENT_TEAM = 3FA65R7P49;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoftoriumTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
