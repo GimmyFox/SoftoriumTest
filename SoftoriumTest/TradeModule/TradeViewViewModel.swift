@@ -9,7 +9,5 @@ import Foundation
 
 
 class TradeViewViewModel: ObservableObject {
-    
-    
-    
+    @Published var currencyModel: CurrencyModel = .test1
 }

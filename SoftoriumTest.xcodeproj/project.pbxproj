@@ -37,6 +37,8 @@
 		975A4BBF2B2B368F0090DD68 /* BuySellButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BBE2B2B368F0090DD68 /* BuySellButton.swift */; };
 		975A4BC12B2B38990090DD68 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC02B2B38990090DD68 /* CurrencyView.swift */; };
 		975A4BC42B2B3C5E0090DD68 /* CurrencyViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC32B2B3C5E0090DD68 /* CurrencyViewViewModel.swift */; };
+		975A4BC72B2B4A0D0090DD68 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC62B2B4A0D0090DD68 /* CurrencyModel.swift */; };
+		975A4BC92B2B4A7B0090DD68 /* TopTradersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975A4BC82B2B4A7B0090DD68 /* TopTradersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		975A4BBE2B2B368F0090DD68 /* BuySellButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuySellButton.swift; sourceTree = "<group>"; };
 		975A4BC02B2B38990090DD68 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		975A4BC32B2B3C5E0090DD68 /* CurrencyViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewViewModel.swift; sourceTree = "<group>"; };
+		975A4BC62B2B4A0D0090DD68 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		975A4BC82B2B4A7B0090DD68 /* TopTradersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTradersModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +110,9 @@
 			children = (
 				9705283B2B2B0A770068AE18 /* Info.plist */,
 				970528202B2AFD7C0068AE18 /* SoftoriumTestApp.swift */,
-				970528222B2AFD7C0068AE18 /* ContentView.swift */,
 				970528302B2AFEAD0068AE18 /* LoaderView.swift */,
+				970528222B2AFD7C0068AE18 /* ContentView.swift */,
+				975A4BC52B2B49F10090DD68 /* Models */,
 				9705285A2B2B225E0068AE18 /* WebView */,
 				970528502B2B0D3D0068AE18 /* TradeModule */,
 				970528522B2B0D750068AE18 /* TopModule */,
@@ -203,6 +208,15 @@
 			path = CurrencyView;
 			sourceTree = "<group>";
 		};
+		975A4BC52B2B49F10090DD68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				975A4BC62B2B4A0D0090DD68 /* CurrencyModel.swift */,
+				975A4BC82B2B4A7B0090DD68 /* TopTradersModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -292,6 +306,7 @@
 				970528232B2AFD7C0068AE18 /* ContentView.swift in Sources */,
 				975A4BC12B2B38990090DD68 /* CurrencyView.swift in Sources */,
 				970528542B2B0D880068AE18 /* TradeView.swift in Sources */,
+				975A4BC72B2B4A0D0090DD68 /* CurrencyModel.swift in Sources */,
 				970528212B2AFD7C0068AE18 /* SoftoriumTestApp.swift in Sources */,
 				970528372B2B083E0068AE18 /* Color+extension.swift in Sources */,
 				970528342B2B05FD0068AE18 /* ProgressBar.swift in Sources */,
@@ -300,6 +315,7 @@
 				9705284F2B2B0B840068AE18 /* Font+extension.swift in Sources */,
 				970528572B2B0D970068AE18 /* TopView.swift in Sources */,
 				970528602B2B242C0068AE18 /* View+extension.swift in Sources */,
+				975A4BC92B2B4A7B0090DD68 /* TopTradersModel.swift in Sources */,
 				970528312B2AFEAD0068AE18 /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

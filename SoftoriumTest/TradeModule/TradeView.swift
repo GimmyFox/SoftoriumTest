@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct TradeView: View {
-    @State var currencyModel: CurrencyModel = .test1
+    
+    @StateObject var vm = TradeViewViewModel()
     var body: some View {
         VStack {
             Text("Trade")
                 .foregroundColor(.white)
                 .font(.interBold22)
             balanceCell()
-            WebView(url: currencyModel.url)
+            WebView(url: vm.currencyModel.url)
                 .frame(maxWidth: .infinity, maxHeight: UIScreen.main.bounds.height / 2.5)
-            TradeButtonStack(currencyModel: $currencyModel)
+            TradeButtonStack(currencyModel: $vm.currencyModel)
         }
         .padding()
         .setBackgroundColor(.backgroundTopView)
