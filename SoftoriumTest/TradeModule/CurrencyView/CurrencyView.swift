@@ -23,7 +23,7 @@ struct CurrencyView: View {
                         .foregroundColor(.white)
                         .font(.interMedium14)
                         .frame(maxWidth: .infinity, minHeight: 55)
-                        .background(Color.buttonBackground)
+                        .background(bindableModel.id == model.id ? Color.greenLoader : Color.buttonBackground)
                         .cornerRadius(12)
                         .onTapGesture {
                             bindableModel = model
